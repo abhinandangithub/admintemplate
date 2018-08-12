@@ -1,0 +1,28 @@
+.left-sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 100px;
+    background-color: black;
+    width: 200px;
+    min-height: 100%;
+    z-index: 810;
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
+    .sidebar{
+        ul{
+            padding: 5px;
+            li{
+                list-style-type: none;
+                padding: 10px;
+                a{
+                    color: white;
+                    font-size: 14px;
+                    i{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

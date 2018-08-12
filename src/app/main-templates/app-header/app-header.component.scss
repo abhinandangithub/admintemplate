@@ -1,0 +1,65 @@
+.main-header{
+    max-height: 50px;
+    z-index: 1030;
+    .hdr-left{
+        ul{
+            padding: 0px;
+            display: table;
+            margin: 0px;
+            li{
+                &:not(:first-child){
+                    padding-left: 10px;
+                }
+                list-style-type: none;
+                display: table-cell;
+                vertical-align: middle;
+                .img_logo{
+                    width: 160px;
+                    height: 50px;
+                }
+            }
+            .hamberger-menu{
+                div{
+                    width: 25px;
+                    height: 3px;
+                    background-color: black;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    .hdr-middle{
+        text-align: center;
+    }
+    .hdr-right{
+        nav{
+            float: right;
+            margin: 0px;
+            ul{
+                li{
+                    .profile-img{
+                        float: left;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                        margin-top: -2px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-inverse{
+    z-index: 1030;
+    padding: 0px;
+    border-radius: 0px;
+    ul{
+        li{
+            &:hover{
+                background-color: rgb(255, 208, 0);
+            }
+        }
+    }
+}
